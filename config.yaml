@@ -1,0 +1,17 @@
+service:
+  host: www.github.com
+  port: 80
+encrypt: false
+token: hello_world
+db: vpn.db
+easyRsa:
+  version: 2
+  dir: c1/easy-rsa
+  configTemplate: openvpn.ovpn
+  crlVerify: c1/easy-rsa/keys/crl.pem
+dingRobot:
+  token: fdebf803ece5080bdb432446ef6649exxxxxxxxxxxxxxxxxx
+  secret: SEC4622afcfbf51b8e71f0cc22xxxxxxxxxxxxxxxxx
+  gap: 300
+
+ 
